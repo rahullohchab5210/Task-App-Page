@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.all-info {
+    max-width: 540px;
+}
+
+.heading-top {
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 43px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.shadow-box {
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-top: 23px;
+    padding-bottom: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.input {
+    width: 498px;
+    height: 59px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.input[placeholder="Add your task here..."] {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-left: 19px;
+}
+
+.add-task-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    padding: 13px 34px;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    border-radius: 4px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.add-task-btn:hover{
+     background: linear-gradient(97.42deg, #128dffdd -4.95%, #1443efcf 109.04%);
+}
+
+
+
+
+/* from__ */
+
+
+.task-list {
+    margin-top: 9px;
+    padding: 0;
+}
+
+.task-item {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    padding-right: 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.task-item:hover {
+    box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.1);
+}
+
+
+.task-text {
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.5;
+}
+
+.icon-btn.toggled svg path {
+  color: red;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    color: #555;
+}
+
+.icon-btn:hover svg path {
+    fill: #000;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Default icon color */
+.icon-path {
+  fill: #555;
+}
+
+/* On hover */
+.icon-btn:hover .icon-path {
+  fill: #000;
+}
+
+/* When toggled (e.g. complete button clicked) */
+.complete-btn.toggled .icon-path {
+  fill: rgba(18, 141, 255, 1);
+}
+
+
+
+
+ 
