@@ -89,11 +89,6 @@
 }
 
 
-
-
-/* from__ */
-
-
 .task-list {
     margin-top: 9px;
     padding: 0;
@@ -156,23 +151,28 @@
     align-items: center;
 }
 
-
-/* Default icon color */
+ 
 .icon-path {
   fill: #555;
 }
-
-/* On hover */
+ 
 .icon-btn:hover .icon-path {
   fill: #000;
-}
-
-/* When toggled (e.g. complete button clicked) */
+} 
 .complete-btn.toggled .icon-path {
   fill: rgba(18, 141, 255, 1);
 }
 
-
+.today-tasks-heading{
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 1);
+ font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-top: 27px;
+}
 
 
  
